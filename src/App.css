@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  top: 0%;
+
+}
+
+.pages{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: x-large;
+  height: 60%;
+  width: 80%;
+}
+
+a:hover{
+  background-color: crimson;
+  color: rgb(255, 255, 255);
+}
+.logo{
+  cursor: pointer;
+}
+
+.meal{
+  box-shadow: 2px 5px 20px;
+  border-radius: 15px 60px;
+  padding-bottom: 10%;
+  overflow: hidden;
+  box-sizing:content-box;
+}
+
+
+
+.menu{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr  1fr;
+  padding: 8%;
+  grid-gap: 20px;
+}
+
+.discription{
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+.discription div span{
+  margin-right: 5%;
+}
+.mealIMG{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+
+.mealIMG::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mealIMG img{
+  width: 100%;
+  height: 30vh;
+  border-radius: 5px ;
+  padding-bottom: 3%;
+}
+
+svg{
+  color: crimson;
+}
+
+.mealName{
+  font-size: x-large;
+  margin-bottom: 2%;
+
+}
+
+.youtubeChanell:hover{
+  color: crimson;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.mealIMG:hover{
+  cursor: pointer;
+}
+
+.meal:hover{
+  box-shadow: 2px 5px 20px rgb(255, 255, 255)  ;
+}
+.main{
+  max-width: 60%;
+  margin-left: 20%;
+  padding-bottom: 10%;
+  border-radius: 30% 0%;
+  background-color: rgba(255, 255, 255, 0.234);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.about{
+  padding: 5%;
+}
+
+.about p{
+  font-weight: 600;
+  color: orangered;
+  font-size: medium;
+
+}
+
+.main h1{
+  font-size:xx-large;
+  color: rgb(162, 255, 230);
+}
+
+.main p{
+  width: 50%;
+  margin-left: 25%;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+.home{
+  background: url(../src/components/homeBG.jpg) no-repeat center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+button{
+  background-color: white;
+  border: none;
+}
+
+.heart{
+  color: crimson;
+}
+
+form{
+  margin:5%;
+}
+
+.btnMenu{
+  margin-right: 5%;
+  background-color: crimson ;
+  font-size: large;
+}
+
+.btn span{
+  color: crimson;
+  font-size: larger ;
+  font-weight: 700;
+  cursor: pointer;
+}

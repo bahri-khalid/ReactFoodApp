@@ -71,3 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # use the following command to install the node modules to start the project
 
 # 	`npm install`
+
+---
+## demo pictures
+___
+![demo1](./demo1.png)
+![demo2](./demo2.png)
+![demo3](./demo3.png)

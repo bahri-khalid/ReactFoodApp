@@ -76,3 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## demo pictures
 ___
 ![demo1](./demo1.png)
+![demo2](./demo2.png)
+![demo3](./demo3.png)

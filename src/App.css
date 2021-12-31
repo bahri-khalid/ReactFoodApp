@@ -110,7 +110,7 @@ svg{
   margin-left: 20%;
   padding-bottom: 10%;
   border-radius: 30% 0%;
-  background-color: rgba(255, 255, 255, 0.234);
+  z-index: 2;
 }
 
 .visually-hidden {
@@ -152,6 +152,17 @@ svg{
   background-size: cover;
   height: 80vh;
   position: relative;
+  z-index: 1;
+}
+.home::after{
+  position: absolute;
+  content:"";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.727);
+  z-index: 0;
 }
 button{
   background-color: white;
